@@ -1,6 +1,6 @@
 # JupiterMagneticField
-JRM09/JRM33 model: magnetic field data from juno after completing 9/33 orbits
-
+JRM09 model: magnetic field data from juno after completing 9 orbits
+JRM33 model: magnetic field data from juno after completing 33 orbits
 
 Test.py contains 2 functions, map2d(R=0.85, MaxDeg=13) and vecfld(extshell_rad=1.0, layer=3, MaxDeg=10).
 
