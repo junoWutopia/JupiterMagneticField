@@ -1,8 +1,8 @@
 import numpy as np
-import _CoeffGrids
-from _Legendre import _Legendre,_LegendreArr
-import _Schmidt
-import _ScaledCoeffs
+from . import _CoeffGrids
+from ._Legendre import _Legendre,_LegendreArr
+from . import _Schmidt
+from . import _ScaledCoeffs
 
 
 def _SphHarm(r,theta,phi,Deg=13):

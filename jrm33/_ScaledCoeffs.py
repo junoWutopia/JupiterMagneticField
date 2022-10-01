@@ -1,7 +1,7 @@
 import numpy as np
-import Globals
-import _CoeffGrids
-import _Schmidt
+from . import Globals
+from . import _CoeffGrids
+from . import _Schmidt
 
 def _ScaledCoeffs():
 	'''

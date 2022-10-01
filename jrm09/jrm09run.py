@@ -1,5 +1,5 @@
 import numpy as np
-import Model
+from . import Model
 import time
 
 def map2d(R=0.85,MaxDeg=10):

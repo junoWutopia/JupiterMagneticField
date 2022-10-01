@@ -1,5 +1,5 @@
 import numpy as np
-import _SphHarm
+from . import _SphHarm
 
 def Model(r,theta,phi,MaxDeg=10):
 	'''

@@ -1,5 +1,5 @@
 import numpy as np
-from _SphHarm import _SphHarm,_SphHarmArr
+from ._SphHarm import _SphHarm,_SphHarmArr
 
 def Model(r,theta,phi,Deg=13):
 	'''

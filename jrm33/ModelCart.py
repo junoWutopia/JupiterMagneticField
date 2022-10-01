@@ -1,5 +1,5 @@
 import numpy as np
-import Model
+from . import Model
 
 def ModelCart(x,y,z,Deg=13):
 	'''

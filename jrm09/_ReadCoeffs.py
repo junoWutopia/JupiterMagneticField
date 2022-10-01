@@ -1,5 +1,5 @@
 import numpy as np
-import Globals
+from . import Globals
 import PyFileIO as pf
 
 def _ReadCoeffs():

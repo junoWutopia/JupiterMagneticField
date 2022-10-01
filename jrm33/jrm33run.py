@@ -1,5 +1,5 @@
 import numpy as np
-import Model
+from . import Model
 import time
 import pstats
 import cProfile

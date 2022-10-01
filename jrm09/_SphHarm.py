@@ -1,7 +1,7 @@
 import numpy as np
-import _CoeffGrids
-import _Legendre
-import _Schmidt
+from . import _CoeffGrids
+from . import _Legendre
+from . import _Schmidt
 
 def _SphHarm(r,theta,phi,MaxDeg=10):
 	'''

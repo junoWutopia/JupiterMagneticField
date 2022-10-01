@@ -1,11 +1,11 @@
 __version__ = '1.0.0'
 
-import Globals
-import _ReadCoeffs
-import _CoeffGrids
-import _Schmidt
-import _SphHarm
-import _Legendre
-import Model
-import ModelCart
-from Test import Test,Timing
+from . import Globals
+from . import _ReadCoeffs
+from . import _CoeffGrids
+from . import _Schmidt
+from . import _SphHarm
+from . import _Legendre
+from . import Model
+from . import ModelCart
+# from Test import Test,Timing

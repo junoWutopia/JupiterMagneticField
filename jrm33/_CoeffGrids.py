@@ -1,6 +1,6 @@
 import numpy as np
-import Globals
-import _ReadCoeffs
+from . import Globals
+from . import _ReadCoeffs
 
 def _CoeffGrids():
 	'''
